@@ -1,6 +1,6 @@
 # Loom Digital Marketing Web Design Case Study
 
-> A designs systems case study 
+> A design systems case study 
 
 ## Author
 
