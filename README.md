@@ -1,2 +1,7 @@
 # Loom Digital Marketing Web Design Case Study
-Designs systems case study of Loom Digital Marketing's website 
+
+> A designs systems case study 
+
+## Author
+
+Michael Ratz
