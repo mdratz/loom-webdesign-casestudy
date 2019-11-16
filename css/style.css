@@ -1,5 +1,5 @@
 :root {
-    --font-sans-serif: "Sofia Pro", sans-serif;
+    --font-sans-serif: "sofia", sans-serif;
     --black: #070721;
     --grey: #c3c3ca;
     --light-grey: #f2f2f4;
@@ -18,5 +18,5 @@ html {
   }
 
 body {
-    font-style: var(--font-sans-serif);
+    font-family: var(--font-sans-serif);
 }
