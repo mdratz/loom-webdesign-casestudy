@@ -8,5 +8,15 @@
     --purple: #8a2ad1;
     --dark-navy: #202038;
     --blacklight: #14142d;
+}
 
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-style: var(--font-sans-serif);
 }
