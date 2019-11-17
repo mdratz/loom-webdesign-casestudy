@@ -19,4 +19,14 @@ html {
 
 body {
     font-family: var(--font-sans-serif);
+    line-height: 2; 
+}
+
+img {
+    display: block; 
+}
+
+.component__body-content {
+    font-size: 1.7em;
+    font-weight: 400;
 }
