@@ -1,5 +1,5 @@
 :root {
-    --font-sans-serif: "sofia", sans-serif;
+    --font-sans-serif: "sofia-pro", sans-serif;
     --black: #070721;
     --grey: #c3c3ca;
     --light-grey: #f2f2f4;
@@ -19,14 +19,66 @@ html {
 
 body {
     font-family: var(--font-sans-serif);
-    line-height: 2; 
+    line-height: 1.8; 
 }
 
 img {
+    max-width: 100%; 
     display: block; 
-}
+} 
+
+/*Typography Code Elements*/
 
 .component__body-content {
-    font-size: 1.7em;
+    font-size: 1.9em;
     font-weight: 400;
+    letter-spacing: .02em;
+    margin-left: 1em; 
 }
+
+/*Image & Border Formatting*/
+
+.component img {
+    max-width: initial;
+}
+
+.component__img {
+    border: 1px solid var(--grey);
+    overflow-x: auto;
+}
+
+.component__code {
+    border: 1px solid var(--grey);
+}
+
+/*Heading Formatting*/
+
+.component__h1-heading {
+    background-color: var(--grey);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 4rem;
+    margin-left: 0; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;  
+    line-height: 1.3;
+    margin-bottom: 0;  
+} 
+
+.component__h2-heading {
+    font-weight: 600;
+    font-size: 3.6rem;
+    margin-left: 0; 
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0; 
+} 
+
+.component__h3-heading {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;  
+} 
