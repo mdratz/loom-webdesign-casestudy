@@ -1,7 +1,13 @@
 # Loom Digital Web Design Case Study
 
-> A design systems case study for MCAD Web Development class project. 
+> A design systems case study for an MCAD Web Development class project. 
 
-## Author
+## Author 
 
-Michael Ratz
+> Michael Ratz
+
+### Design Inspiration
+
+> [Loom Digital](https://www.loomdigital.co.uk/)
+
+
