@@ -27,10 +27,14 @@ img {
     display: block; 
 } 
 
-.component__code--button {
-    margin-top: 50px;
-    margin-bottom: 50px; 
-    padding-top: 50px;
+.component__name {
+background-color: var(--black);
+color: var(--white);
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+margin-left: 0;
+margin-bottom: 0;
 }
 
 /*Typography Code Elements*/
@@ -115,4 +119,30 @@ img {
     color: var(--white);
     font-weight: 600;
     padding: 15px 20px;
+}
+
+/*Email Form Styling*/
+
+input[type=email] {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    background-color: var(--light-grey);
+    font-family: var(--font-sans-serif);
+    font-size: 1rem; 
+    border: none;
+}
+
+input[type=submit] {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: var(--font-sans-serif);
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 20px;
+    padding-right: 20px; 
+    font-weight: 600;
+    font-size: 1em;
+    border: none;
 }
