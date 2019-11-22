@@ -27,6 +27,12 @@ img {
     display: block; 
 } 
 
+.component__code--button {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    padding-top: 50px;
+}
+
 /*Typography Code Elements*/
 
 .component__body-content {
@@ -83,3 +89,30 @@ img {
     margin-left: 1rem;
     margin-top: 1rem;  
 } 
+
+/*Button Styling*/
+
+.component__button {
+    color: var(--black);   
+    text-align: center;
+    display: inline-block; 
+    font-size: 1em;
+    margin-left: 30px; 
+    margin-right: 30px; 
+}
+
+.component__button--light {
+    background-color: var(--light-grey);
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.component__button--dark {
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 600;
+    padding: 15px 20px;
+}
