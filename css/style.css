@@ -182,9 +182,9 @@ input[type=email] {
  
 .article__card {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: repeat(2 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
 }
 
 .article-1 {
@@ -226,4 +226,16 @@ input[type=email] {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 2;
+}
+
+.component__article__card--header {
+    font-family: var(--font-sans-serif);
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+.component__article__card--content {
+    font-size: 1.1rem;
+    padding-left: 20px;  
 }
