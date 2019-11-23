@@ -19,7 +19,7 @@ html {
 
 body {
     font-family: var(--font-sans-serif);
-    line-height: 1.8; 
+    line-height: 1.8;
 }
 
 img {
@@ -28,22 +28,23 @@ img {
 } 
 
 .component__name {
-background-color: var(--black);
-color: var(--white);
-padding-bottom: 10px;
-padding-top: 10px;
-padding-left: 10px;
-margin-left: 0;
-margin-bottom: 0;
+    background-color: var(--black);
+    color: var(--white);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 /*Typography Code Elements*/
 
 .component__body-content {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 400;
     letter-spacing: .02em;
-    margin-left: 1em; 
+    margin-left: 1em;
+    padding-right: 800px; 
 }
 
 /*Image & Border Formatting*/
@@ -102,7 +103,9 @@ margin-bottom: 0;
     display: inline-block; 
     font-size: 1em;
     margin-left: 30px; 
-    margin-right: 30px; 
+    margin-right: 30px;
+    margin-top: 30px; 
+    margin-bottom: 30px;  
 }
 
 .component__button--light {
@@ -185,6 +188,8 @@ input[type=email] {
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 30px;
+    overflow-x: auto;
+    max-width: initial; 
 }
 
 .article-1 {
@@ -206,6 +211,7 @@ input[type=email] {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
+    padding-bottom: 0; 
 }
 .article-4 {
     grid-column-start: 1;
@@ -231,11 +237,48 @@ input[type=email] {
 .component__article__card--header {
     font-family: var(--font-sans-serif);
     font-weight: 600;
-    font-size: 1.5rem;
-    padding-left: 20px;
+    font-size: 1.4rem;
+    padding-left: 30px;
 }
 
-.component__article__card--content {
+.component__article__card--content1 {
     font-size: 1.1rem;
-    padding-left: 20px;  
+    padding-left: 30px;
+    padding-right: 10px; 
+    padding-bottom: 5px;   
+}
+
+.component__article__card--content2 {
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 5px;    
+}
+
+.component__article__card--content3 {
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 35px;
+}
+
+.component__article__card--content4 {
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 65px;    
+}
+
+.component__article__card--content5 {
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 10px; 
+    padding-bottom: 0px;   
+}
+
+.component__article__card--content6 {
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 63px;    
 }
