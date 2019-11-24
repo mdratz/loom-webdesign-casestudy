@@ -159,6 +159,10 @@ i.fab:hover {
 
 /*Email Form Styling*/
 
+.form {
+    background-color: var(--black);
+}
+
 input[type=email] {
     width: 29.5%;
     display: inline-block; 
@@ -188,7 +192,9 @@ input[type=email] {
 
 .form__email--address {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;  
 }
 
 .checkbox__copy {
@@ -200,7 +206,9 @@ input[type=email] {
     padding-bottom: 5px;
     padding-top: 5px;
     padding-right: 10px;
-    padding-left: 10px;    
+    padding-left: 10px; 
+    padding-bottom: 6px;
+    margin-top: 0;   
 }
 
 .checkbox__copy a {
@@ -212,6 +220,14 @@ input[type=email] {
 
 .component__checkbox {
     display: inline-block;
+    border-style: none;
+    background-color: var(--black);
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 /*Article Card Styling*/
