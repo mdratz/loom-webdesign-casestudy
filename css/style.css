@@ -134,6 +134,29 @@ img {
     padding-top: 0; 
 }
 
+.component__code__sociallist {
+    list-style-type: none;
+    margin:0; 
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    background-color: var(--black);
+}
+
+i.fab {
+    color: var(--white);
+    font-size: 1.33em; 
+    padding-bottom: 10px; 
+}
+
+.fab__icon:hover {
+    background: var(--black);
+}
+
+i.fab:hover {
+    color: var(--purple);
+}
+
 /*Email Form Styling*/
 
 input[type=email] {
