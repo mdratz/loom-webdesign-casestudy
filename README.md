@@ -6,11 +6,11 @@
 
 > Michael Ratz
 
-## Case Study Website
+### Case Study Website
 
 > [Loom Digital](https://www.loomdigital.co.uk/)
 
-## Loom Digital Website Designed By
+#### Loom Digital Website Designed By
 
 > [Fhoke](https://www.fhoke.com/)
 
