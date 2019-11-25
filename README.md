@@ -2,12 +2,15 @@
 
 > A design systems case study for an MCAD Web Development class project. 
 
-## Author 
+## Case Study By 
 
 > Michael Ratz
 
-### Design Inspiration
+## Case Study Website
 
 > [Loom Digital](https://www.loomdigital.co.uk/)
 
+## Loom Digital Website Designed By
+
+> [Fhoke](https://www.fhoke.com/)
 
