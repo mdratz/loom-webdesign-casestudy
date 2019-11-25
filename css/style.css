@@ -431,8 +431,22 @@ footer {
     color: var(--white);
 }
 
+.component__footer--list a:hover {
+    color: var(--purple);
+
+}
+
 .component__footer__legal {
     color: var(--white);
+}
+
+.component__footer__legal a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.component__footer__legal a:hover{
+    color: var(--purple);
 }
 
 .footer__contact--details {
@@ -464,7 +478,7 @@ footer {
     grid-row-end: 1;
 }
 
-.footer__social p {
+.footer__social a {
     display: inline;
     padding-left: 10px; 
 }
