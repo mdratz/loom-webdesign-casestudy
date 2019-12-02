@@ -406,6 +406,33 @@ header {
     padding-left: 0; 
 }
 
+/*Hero Image Styling*/
+
+.component__hero--image { 
+    position: absolute;
+}
+
+.component__h1-heading--hero {
+    border: 1px solid red;
+    display: inline-block; 
+    position: relative; 
+    padding-right: 3rem; 
+}
+
+.component__hero--button1 {  
+    margin-left: 2em;
+    border: 2px solid red; 
+    display: inline-block;
+    position: relative;    
+}
+
+.component__hero--button2 {  
+    margin-left: 2em;
+    border: 2px solid red; 
+    display: inline-block; 
+    position: relative;   
+}
+
 /*Footer Navigation Styling*/
 
 footer {
