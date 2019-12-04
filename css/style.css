@@ -66,7 +66,7 @@ img {
     background-color: var(--grey);
     color: var(--white);
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 0; 
     padding-left: 1rem;
     padding-right: 1rem;
@@ -79,7 +79,7 @@ img {
     background-color: none;
     color: var(--white);
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 0; 
     padding-left: 1rem;
     padding-right: 1rem;
@@ -129,6 +129,11 @@ img {
     color: var(--black);
     font-weight: 600;
     padding: 15px 20px;
+}
+
+.component__button--light:hover {
+    background: var(--dark-navy);
+    color: var(--white);
 }
 
 .component__button--dark {
@@ -366,6 +371,8 @@ header {
     font-weight: 500;
     font-size: 1em;
     background: var(--black);
+    position: absolute; 
+    width: 100%; 
 }
 
 .component__navbar--img {
@@ -408,29 +415,42 @@ header {
 
 /*Hero Image Styling*/
 
-.component__hero--image { 
-    position: absolute;
+.component__hero--image {
+    width: 100%;
+    position: static; 
+    top: 0;
+    left: 0;
+    margin: 0;
 }
 
 .component__h1-heading--hero {
     border: 1px solid red;
     display: inline-block; 
-    position: relative; 
-    padding-right: 3rem; 
+    position: absolute;
+    padding-right: 20rem; 
+    left: 10px; 
+    top: 250px;  
+    z-index: 10;   
 }
 
 .component__hero--button1 {  
     margin-left: 2em;
     border: 2px solid red; 
-    display: inline-block;
-    position: relative;    
+    display: inline-block; 
+    position: absolute;
+    left: 10px; 
+    top: 575px;  
+    z-index: 10;   
 }
 
 .component__hero--button2 {  
     margin-left: 2em;
     border: 2px solid red; 
-    display: inline-block; 
-    position: relative;   
+    display: inline-block;
+    position: absolute;
+    left: 200px; 
+    top: 575px;  
+    z-index: 10;   
 }
 
 /*Footer Navigation Styling*/
@@ -534,3 +554,4 @@ footer {
     font-size: .9em;
     padding-left: 30px;  
 }
+
