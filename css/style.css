@@ -372,7 +372,8 @@ header {
     font-size: 1em;
     background: var(--black);
     position: absolute; 
-    width: 100%; 
+    width: 100%;
+    height: 75px;  
 }
 
 .component__navbar--img {
@@ -424,10 +425,10 @@ header {
 }
 
 .component__h1-heading--hero {
-    border: 1px solid red;
     display: inline-block; 
     position: absolute;
-    padding-right: 20rem; 
+    padding-right: 40rem;
+    padding-left: 15rem;  
     left: 10px; 
     top: 250px;  
     z-index: 10;   
@@ -435,22 +436,28 @@ header {
 
 .component__hero--button1 {  
     margin-left: 2em;
-    border: 2px solid red; 
     display: inline-block; 
     position: absolute;
+    margin-left: 15rem; 
     left: 10px; 
-    top: 575px;  
+    top: 500px;  
     z-index: 10;   
 }
 
 .component__hero--button2 {  
     margin-left: 2em;
-    border: 2px solid red; 
     display: inline-block;
     position: absolute;
+    margin-left: 15rem; 
     left: 200px; 
-    top: 575px;  
+    top: 500px;  
     z-index: 10;   
+}
+
+/*Homepage Section 1 Content*/
+
+.component__section1 {
+    height: 
 }
 
 /*Footer Navigation Styling*/
