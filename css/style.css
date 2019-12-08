@@ -441,7 +441,7 @@ header {
 }
 
 .component__hero--button1 {  
-    margin-left: 2em;
+    margin-left: 2rem;
     display: inline-block; 
     position: absolute;
     margin-left: 15rem; 
@@ -450,12 +450,17 @@ header {
 }
 
 .component__hero--button2 {  
-    margin-left: 2em;
+    margin-left: 2rem;
     display: inline-block;
     position: absolute;
     margin-left: 15rem; 
     left: 200px; 
     top: 500px;  
+}
+
+.component__section2--img {
+    margin-top: 2rem;
+    margin-left: 15rem; 
 }
 
 /*Homepage Section 1 Content*/
