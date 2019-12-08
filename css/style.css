@@ -101,9 +101,10 @@ img {
 
 .component__h3-heading {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 1rem;
     margin-top: 1rem;
+    line-height: 3rem; 
 } 
 
 .component__img--headings img {
@@ -423,6 +424,10 @@ header {
 
 /*Hero Image Styling*/
 
+.component__hero { 
+    height: 910px;  
+}
+
 .component__hero--image {
     width: 100%;
     position: static; 
@@ -456,11 +461,6 @@ header {
     margin-left: 15rem; 
     left: 200px; 
     top: 500px;  
-}
-
-.component__section2--img {
-    margin-top: 2rem;
-    margin-left: 15rem; 
 }
 
 /*Homepage Section 1 Content*/
@@ -508,6 +508,46 @@ header {
 .component__section2--button {
     margin-top: 2rem; 
     padding-left: 15rem;
+}
+
+.component__section2--img {
+    margin-top: 2rem;
+    margin-left: 15rem; 
+}
+
+/*Homepage Section 2 Articles*/
+
+.component__articlecards {
+    margin-left: 15rem;
+}
+
+/*Homepage Section 3 Articles*/
+
+.component__section3 {
+    background-color: var(--acqua);
+    height: 350px; 
+    display: flex;
+    padding-top: 3rem; 
+}
+
+.component__section3--header {
+    padding-left: 0rem;
+    width: 1500px; 
+    margin-left: 15rem;   
+}
+
+.component__section3--copy {
+    margin-left: 10rem; 
+    margin-right: 15rem;  
+    font-size: 1.2rem;  
+}
+
+.component__section3--button {
+    display: inline-block; 
+    position: absolute;
+    right: 0;
+    margin-top: 12rem;
+    margin-right: 27.9rem;   
 }
 
 /*Footer Navigation Styling*/
