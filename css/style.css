@@ -489,6 +489,20 @@ header {
     padding: .75rem; 
 }
 
+/*Homepage Section 2 Content*/
+
+.component__section2--header {
+    padding-left: 15rem;
+    padding-top: 7rem;  
+}
+
+.component__section2--copy {
+    padding-left: 15rem;
+    font-size: 1.2rem;
+    padding-right: 45rem;
+    margin-bottom: 5rem; 
+}
+
 /*Footer Navigation Styling*/
 
 footer {
