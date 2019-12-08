@@ -379,7 +379,8 @@ header {
     background: var(--black);
     position: fixed; 
     width: 100%;
-    height: 75px;  
+    height: 75px;
+    z-index: 10;   
 }
 
 .component__navbar--img {
@@ -436,8 +437,7 @@ header {
     padding-right: 40rem;
     padding-left: 15rem;  
     left: 10px; 
-    top: 250px;  
-    z-index: 10;   
+    top: 250px;   
 }
 
 .component__hero--button1 {  
@@ -446,8 +446,7 @@ header {
     position: absolute;
     margin-left: 15rem; 
     left: 10px; 
-    top: 500px;  
-    z-index: 10;   
+    top: 500px;   
 }
 
 .component__hero--button2 {  
@@ -457,7 +456,6 @@ header {
     margin-left: 15rem; 
     left: 200px; 
     top: 500px;  
-    z-index: 10;   
 }
 
 /*Homepage Section 1 Content*/
@@ -499,8 +497,12 @@ header {
 .component__section2--copy {
     padding-left: 15rem;
     font-size: 1.2rem;
-    padding-right: 45rem;
-    margin-bottom: 5rem; 
+    padding-right: 45rem; 
+}
+
+.component__section2--button {
+    margin-top: 2rem; 
+    padding-left: 15rem;
 }
 
 /*Footer Navigation Styling*/
