@@ -199,6 +199,7 @@ input[type=email] {
     font-size: 1rem; 
     border: none; 
     overflow: hidden;
+    z-index: 10; 
 }
 
 .form__email--submit {
@@ -578,6 +579,25 @@ header {
 .component__section4--logos {
     margin-top: 5rem; 
     margin-left: 14rem; 
+}
+
+/*Homepage Email Form*/
+
+.component__form {
+    background-color: var(--black);
+    height: 300px; 
+    display: inline-block;
+    width: 100%;
+}
+
+.component__form--header {
+    color: var(--white);
+    margin-left: 15rem;  
+}
+
+.component__form--copy {
+    color: var(--white);
+    margin-left: 15rem; 
 }
 
 /*Footer Navigation Styling*/
