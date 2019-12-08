@@ -524,7 +524,7 @@ header {
     margin-left: 15rem;
 }
 
-/*Homepage Section 3 Articles*/
+/*Homepage Section 3 Content*/
 
 .component__section3 {
     background-color: var(--acqua);
@@ -551,6 +551,33 @@ header {
     right: 0;
     margin-top: 12rem;
     margin-right: 27.9rem;   
+}
+
+/*Homepage Section 4 Content*/
+
+.component__section4 {
+    background-color: var(--black);
+    margin-top: 0; 
+    height: 600px;
+    width: 100%; 
+    display: inline-block;  
+}
+
+.component__section4--header {
+    color: var(--white);
+    font-size: 3.25rem; 
+    margin-left: 15rem;
+    margin-bottom: 2rem;  
+}
+
+.component__section4--button {
+    margin-left: 15rem; 
+    font-size: 1.25rem; 
+}
+
+.component__section4--logos {
+    margin-top: 5rem; 
+    margin-left: 14rem; 
 }
 
 /*Footer Navigation Styling*/
