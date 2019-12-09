@@ -66,6 +66,15 @@ img {
 
 /*Heading Formatting*/
 
+.component__section1 {
+    background-color: var(--black);
+    color: var(--white);
+    position: relative;
+    height: 30rem; 
+    margin: 0; 
+    display: flex;  
+}
+
 .component__h1-heading {
     background-color: var(--grey);
     color: var(--white);
