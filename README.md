@@ -1,6 +1,6 @@
 # Loom Digital Web Design Case Study
 
-> A design systems case study for an MCAD Web Development class project. 
+> A design systems case study for an [MCAD Web Development](https://mcad.edu/) class project. 
 
 ## Case Study By 
 
