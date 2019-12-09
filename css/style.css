@@ -430,6 +430,7 @@ header {
     color: var(--white);
     padding-right: 0; 
     margin-right: 0;
+    font-size: 1rem; 
 }
 
 .component__navbar--email {
